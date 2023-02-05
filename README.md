@@ -35,7 +35,7 @@ To see the logs on Grafana dashboard, you can follow YouTube video or below step
 docker-compose -f docker-compose.test.yml up 
 ```
 
-1. to start any service in development mode
+1. to start any service in development modenpm
 ```
 npm start
 ```
