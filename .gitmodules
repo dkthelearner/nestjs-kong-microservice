@@ -1,15 +1,20 @@
 [submodule "auth"]
 	path = auth
-	url = https://github.com/BackendWorks/auth.git
+	url = https://github.com/dkthelearner/auth.git
+	branch = main
 [submodule "post"]
 	path = post
-	url = https://github.com/BackendWorks/post.git
+	url = https://github.com/dkthelearner/post.git
+	branch = main
 [submodule "mailer"]
 	path = mailer
-	url = https://github.com/BackendWorks/mailer.git
+	url = https://github.com/dkthelearner/mailer.git
+	branch = main
 [submodule "notification"]
 	path = notification
-	url = https://github.com/BackendWorks/notification.git
+	url = https://github.com/dkthelearner/notification.git
+	branch = main
 [submodule "files"]
 	path = files
-	url = https://github.com/BackendWorks/files.git
+	url = https://github.com/dkthelearner/files.git
+	branch = main

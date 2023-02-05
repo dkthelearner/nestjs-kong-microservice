@@ -12,8 +12,7 @@ Fully managed microservices starter using NestJS, Kong API gateway, RabbitMQ, Re
 - Fluent-Bit - https://fluentbit.io/
 ## Get started
 - use `git submodule update --init --recursive` command to update/fetch submodules.
-- copy env variables from each submodule repo from `example.env` file. 
-- To explore APIs collection here is the link of [postman](https://www.getpostman.com/collections/d1dccb090ce55fe39f0a) collection
+- copy env variables from each submodule repo from `example.env` file.
 
 ## Setting up an environment notes:
 - you can start local environment by running `docker-compose.core.yml` file. file only contains service dependencies so that you don't need to start each service seperatly on your own. but keep in mind that if you're running any of the service in local then you need to change `.env` and replace all docker host variables to `localhost`. otherwise services will not work for local machine. 
@@ -36,12 +35,12 @@ To see the logs on Grafana dashboard, you can follow YouTube video or below step
 docker-compose -f docker-compose.test.yml up 
 ```
 
-2. to start any service in development mode
+1. to start any service in development mode
 ```
 npm start
 ```
 
-3. then you can access service endpoint directly using localhost.
+1. then you can access service endpoint directly using localhost.
 
 ## Run in docker 
 
@@ -49,7 +48,7 @@ npm start
 ```
 docker-compose up 
 ```
-2. and then you can access services from kong api gateway on port `8000`. 
+1. and then you can access services from kong api gateway on port `8000`. 
 
 ## Deployment
 
